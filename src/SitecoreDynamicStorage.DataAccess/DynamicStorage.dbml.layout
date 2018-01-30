@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DynamicStorage">
+  <DataContextMoniker Name="/DynamicStorageDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1c4e8985-732d-453a-853b-ce3d8b886ea6" absoluteBounds="2.25, 1.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DynamicStorageDataContext/DynamicStorageRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cabed18e-fb88-479f-95c1-6d5f98214a60" absoluteBounds="2.265, 2.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,16 @@
+.vs/*
+*.dll
+packages/*
+bin/*
+*.exe
+src/SitecoreDynamicStorage.Cache/bin/*
+src/SitecoreDynamicStorage.Cache/obj/*
+*.user
+*Web.Debug.config
+src/SitecoreDynamicStorage.Core/bin/*
+src/SitecoreDynamicStorage.Core/obj/*
+*Web.Release.config
+src/SitecoreDynamicStorage.DataAccess/bin/*
+src/SitecoreDynamicStorage.DataAccess/obj/*
+src/SitecoreDynamicStorage.Examples/obj/*
+src/SitecoreDynamicStorage.Examples/bin/*
