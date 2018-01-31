@@ -1,17 +1,17 @@
 # Sitecore-Dynamic-Storage
-Library that allows storing KeyValue data to Core DB with caching.
+Library that allows storing KeyValue data to core DB with caching.
 For usage examples see 'SitecoreDynamicStorage.Examples' Project
 
 # Features:
 - Dynamically add, update and delete Key-Value records that get saved in core DB
 - Data gets cached on first retrieval so you don't have to worry about excessive DB hits
-- Can subscribe to Added, Updated or Retrieved events on certain keys
+- Can subscribe to Added, Updated or Retrieved events on pre-specified keys
 - DynamicModel that allows usage of this module in a statically typed and named manner
 
 # Setup:
-- Please executed the 'CreateTableScript.sql' on Sitecore's core DB
+- Execute the 'CreateTableScript.sql' on Sitecore's core DB
 - Make sure the core DB connection string's name is 'core' otherwise edit the connection string's name in 'SitecoreDynamicStorage.DataAccess.DynamicStorage.designer.cs' from "core" to your connection string's name.
-- Update lib/Sitecore.Kernel.dll to the version you're using
+- Update lib/Sitecore.Kernel.dll to the version you're using (Sitecore DLL is not essential, used only for the Sitecore.Context.Site extension, so you can get rid of it of you prefer to)
 - You will only have to add a reference to 'SitecoreDynamicStorage.Core' in your project
 
 # Notes:
